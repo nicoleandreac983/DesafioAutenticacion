@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAdvZZ4C1Qif0BieagAO_00VJqe-6vKwtc",
+  apiKey: import.meta.env.VUE_FIREBASE_API_KEY,
   authDomain: "desafioautentificacion-d67e0.firebaseapp.com",
   projectId: "desafioautentificacion-d67e0",
   storageBucket: "desafioautentificacion-d67e0.firebasestorage.app",
