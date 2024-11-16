@@ -6,7 +6,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VUE_FIREBASE_API_KEY,
-  authDomain: import.meta.en.VUE_FIREBASE_AUTH_DOMAIN, 
+  authDomain: import.meta.env.VUE_FIREBASE_AUTH_DOMAIN, 
   projectId: import.meta.env.VUE_FIREBASE_PROJECTID,
   storageBucket: import.meta.env.VUE_FIREBAE_STORAGEB,
   messagingSenderId: import.meta.env.VUE_FIREBAE_MESSAGEIN,

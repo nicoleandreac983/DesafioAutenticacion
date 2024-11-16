@@ -10,11 +10,11 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     env: 
-      VUE_FIREBASE_API_KEY: ${{secrets.VUE_FIREBASE_API_KEY}},
-      VUE_FIREBASE_AUTH_DOMAIN: ${{secrets.VUE_FIREBASE_AUTH_DOMAIN}},
-      VUE_FIREBASE_PROJECTID: ${{secrets.VUE_FIREBASE_PROJECTID}},
-      VUE_FIREBAE_STORAGEB: ${{secrets.VUE_FIREBAE_STORAGEB}},
-      VUE_FIREBASE_MESSAGIN: ${{secrets.VUE_FIREBASE_MESSAGIN}},
+      VUE_FIREBASE_API_KEY: ${{secrets.VUE_FIREBASE_API_KEY}}
+      VUE_FIREBASE_AUTH_DOMAIN: ${{secrets.VUE_FIREBASE_AUTH_DOMAIN}}
+      VUE_FIREBASE_PROJECTID: ${{secrets.VUE_FIREBASE_PROJECTID}}
+      VUE_FIREBAE_STORAGEB: ${{secrets.VUE_FIREBAE_STORAGEB}}
+      VUE_FIREBASE_MESSAGIN: ${{secrets.VUE_FIREBASE_MESSAGIN}}
       VUE_FIREBASE_APPI_ID: ${{secrets.VUE_FIREBASE_APPI_ID}}
     steps:
       - uses: actions/checkout@v4
